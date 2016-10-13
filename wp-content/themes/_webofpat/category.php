@@ -15,11 +15,7 @@
 get_header(); ?>
 
 
-    <div id="primary" class="content-area">
-
-<!--        <img class="categoryPicture" src="../../wp-content/uploads/10b.jpg"-->
-<!--        alt="Creative & Design"/>-->
-
+<!--    <div id="primary" class="content-area">-->
 
         <!--Visuel de la category-->
         <?php get_cat_ID($cat);
