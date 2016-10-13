@@ -1,0 +1,22 @@
+$size__site-main: 90%;
+$size__site-sidebar: 25%;
+
+/*--------------------------------------------------------------
+# Site main & bloc index structure
+--------------------------------------------------------------*/
+
+.site-main {
+  margin: auto;
+  width: $size__site-main;
+}
+
+.bloc-index {
+  width: 33%;
+  float: left;
+}
+
+.categoryPicture {
+  //width: 100%;
+  //height: 200px;
+
+}
