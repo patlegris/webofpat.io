@@ -17,15 +17,13 @@ get_header(); ?>
 
 <!--    <div id="primary" class="content-area">-->
 
-        <!--Visuel de la category-->
+        <!--Visuel & titre de la category-->
         <?php get_cat_ID($cat);
-        get_cat_name($cat_name);
+        get_cat_name($catName);
         echo "<figure class=\"categoryPicture\"><img src=\"../../wp-content/uploads/$cat.jpg\"
 alt=\"$cat->cat_name\" /></figure>
-
 <br>
-            <!--Titre de la category-->
-<h1 class=\"page-title\">$cat_name</h1>";
+<h1 class=\"page-title\">$catName</h1>";
          ?>
 
         <main id="main" class="site-main" role="main">

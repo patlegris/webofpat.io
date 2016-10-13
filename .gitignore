@@ -1,0 +1,6 @@
+# Created by .ignore support plugin (hsz.mobi)
+.idea/vagrant.xml
+.idea/vcs.xml
+/wp-content/themes/_webofpat/node_modules/*
+/wp-content/uploads/*
+/wp-content/updraft/*
